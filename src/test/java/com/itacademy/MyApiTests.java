@@ -12,7 +12,7 @@ public class MyApiTests {
 
     @Test
     public void myGetTestSecond(){
-        given().log().all().when().get("https://jsonplaceholder.typicode.com/posts")
+        given().log().all().contentType(ContentType.JSON).when().get("https://jsonplaceholder.typicode.com/posts")
                 .then().log().all().statusCode(200);
     }
 
@@ -41,13 +41,13 @@ public class MyApiTests {
 
     @Test
     public void myTestDeleteSecond(){
-        given().log().uri()
+        given().log().uri().contentType(ContentType.JSON)
                 .when().delete("https://jsonplaceholder.typicode.com/posts/1")
                 .then().statusCode(200);
     }
     @Test
     public void myApiTestGet(){
-        given().log().all()
+        given().log().all().contentType(ContentType.JSON)
                 .when().get("https://reqres.in/api/unknown")
                 .then().log().all().statusCode(200);
     }
@@ -76,7 +76,7 @@ public class MyApiTests {
     @Test
     public void myApiTestDelete(){
 
-        given().log().all()
+        given().log().all().contentType(ContentType.JSON)
                 .when().delete("https://reqres.in/api/users/2")
                 .then().log().all().statusCode(204);
     }

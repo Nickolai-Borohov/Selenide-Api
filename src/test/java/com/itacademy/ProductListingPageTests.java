@@ -35,15 +35,7 @@ public class ProductListingPageTests{
             productListingPage.produstIncartName();
             SelenideElement productInCartElement = productListingPage.produstIncartName();
             String productInCartName=productInCartElement.getText();
-            if (firstProductName.equals(productInCartName))
-            {
-                LOGGER.info("Good");
-            }
-            else
-                LOGGER.info("Something went wrong");
-            //if (firstProductName.equals())
-
-            //Configuration.timeout=10000;
+            assert firstProductName.equals(productInCartName):"Something went wrong";
         }
 
         @Test
@@ -59,14 +51,15 @@ public class ProductListingPageTests{
             List<String> productsWithMFilter= $$(By.xpath("//*[@class='sc-124al1g-4 eeXMBo']")).shouldHave(size(1)).texts();  ////*[@class='sc-124al1g-2 keuquD']
             LOGGER.info(productsWithMFilter);
             productListingPage.openURL();
-            if (productsOnMainPage.size()>productsWithMFilter.size())
-            {
-                LOGGER.info("More products on the home page");
-            }
-            else
-            {
-                LOGGER.info("Something went wrong");
-            }
+            assert (productsOnMainPage.size()>productsWithMFilter.size()):"Something went wrong";
+//            if (productsOnMainPage.size()>productsWithMFilter.size())
+//            {
+//                LOGGER.info("More products on the home page");
+//            }
+//            else
+//            {
+//                LOGGER.info("Something went wrong");
+//            }
 
         }
 
