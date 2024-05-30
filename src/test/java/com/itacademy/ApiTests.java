@@ -5,6 +5,7 @@ import io.restassured.response.Response;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
+import org.checkerframework.dataflow.qual.TerminatesExecution;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -76,5 +77,24 @@ public class ApiTests {
 
     }
 
+//____________________________________________________#2
 
+    String token ;
+    @Test
+    public void login (){
+        Response response = given().contentType(ContentType.JSON).body("{\"username\":\"emilys\",\"password\":\"emilyspass\",  \"expiresInMins\": 30}")
+                .when().post("https://dummyjson.com/auth/login")
+                .then().log().body().statusCode(200).extract().response();
+        token= response.jsonPath().getString("token");
+        //expiresInMins": 30 - время которое ты можешь быть в сети, обычно такое разрабы делают/дают
+    }
+
+
+    @Test
+    public void getUSer(){//dependsOnMethods={"login"}
+        given().header("Authorization", "Bearer"+ token)
+                .when().get("'https://dummyjson.com/auth/me")
+                .then().statusCode(200);
+    }
 }
+//есть несколько видов аутенцификации oauth, ouath2... но это нужно брать из документации
