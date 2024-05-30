@@ -4,29 +4,183 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe2bd578-87d1-459f-b06b-83b80a488282" name="Changes" comment="" />
+    <list default="true" id="fe2bd578-87d1-459f-b06b-83b80a488282" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testSuites/testNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide-core/7.3.1/selenide-core-7.3.1-sources.jar!/com/codeborne/selenide/ElementsCollection.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide-core/7.3.1/selenide-core-7.3.1-sources.jar!/com/codeborne/selenide/SelenideElement.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.10.1/testng-7.10.1.jar!/org/testng/annotations/BeforeTest.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2gk2dz3l3TSIEffdbsb4QVo6joI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.ApiTests.getUSer.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApiTests.login.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApiTests.myApiTest1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApiTests.myApiTestDelete.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApiTests.myApiTestGet.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApiTests.myApiTestPost.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ApiTests.myApiTestPut.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AppTest.getTestIt.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BaseTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BaseTest.fakeData.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BaseTest.faker.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoggerTest.loggerTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MyApiTests.myApiTestPost.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MyApiTests.myApiTestPutSecond.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MyApiTests.myGetTestSecond.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MyApiTests.myPostTestSecond.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MyApiTests.myTestDeleteSecond.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductListingPage.firstTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductListingPageTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductListingPageTests.firstTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductListingPageTests.qasTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductListingPageTests.test2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestTuesday.deleteUserIT.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestTuesday.getTestIt.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestTuesday.updateUserIt.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestTuesday.validateXML.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java_Lessons/Selenide&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="TestNG.ProductListingPageTests.firstTest">
+    <configuration name="BaseTest.fakeData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itacademy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itacademy" />
+      <option name="MAIN_CLASS_NAME" value="com.itacademy.BaseTest" />
+      <option name="METHOD_NAME" value="fakeData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseTest.faker" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itacademy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itacademy" />
+      <option name="MAIN_CLASS_NAME" value="com.itacademy.BaseTest" />
+      <option name="METHOD_NAME" value="faker" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductListingPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itacademy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itacademy" />
+      <option name="MAIN_CLASS_NAME" value="com.itacademy.ProductListingPageTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductListingPageTests.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itacademy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itacademy" />
+      <option name="MAIN_CLASS_NAME" value="com.itacademy.ProductListingPageTests" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductListingPageTests.qasTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itacademy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itacademy" />
+      <option name="MAIN_CLASS_NAME" value="com.itacademy.ProductListingPageTests" />
+      <option name="METHOD_NAME" value="qasTests" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ProductListingPageTests.firstTest" />
+        <item itemvalue="TestNG.ProductListingPageTests" />
+        <item itemvalue="TestNG.ProductListingPageTests.qasTests" />
+        <item itemvalue="TestNG.BaseTest.fakeData" />
+        <item itemvalue="TestNG.BaseTest.faker" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -44,5 +198,8 @@
       <updated>1716227347147</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
