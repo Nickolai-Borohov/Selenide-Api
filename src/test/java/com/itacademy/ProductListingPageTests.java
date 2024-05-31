@@ -37,7 +37,9 @@ public class ProductListingPageTests{
         @Test
     public void firstTest(){
             Configuration.browserSize="1920x1080";
-           // Configuration.browser="firefox";
+           // Dselenide.browser=firefox;
+
+            // Configuration.browser="firefox";
             ProductListingPage productListingPage = new ProductListingPage();
             productListingPage.openURL();
             SelenideElement firstProductElement= $(By.xpath("//*[@class='sc-124al1g-2 dwOYCh'] //*[@class='sc-124al1g-4 eeXMBo']"));
